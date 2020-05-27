@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.activations
+package org.firstinspires.ftc.sevenxmachine.activations
 
 interface Activation {
 

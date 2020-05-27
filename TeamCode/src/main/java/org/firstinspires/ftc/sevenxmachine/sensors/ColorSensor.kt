@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.sensors
+package org.firstinspires.ftc.sevenxmachine.sensors
 
 import com.qualcomm.robotcore.hardware.NormalizedColorSensor
 

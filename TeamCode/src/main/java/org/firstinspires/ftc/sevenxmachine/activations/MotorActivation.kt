@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.activations
+package org.firstinspires.ftc.sevenxmachine.activations
 
 import com.qualcomm.robotcore.hardware.DcMotor
 import kotlin.properties.Delegates

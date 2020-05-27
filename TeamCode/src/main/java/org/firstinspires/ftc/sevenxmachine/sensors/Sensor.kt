@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.sensors
+package org.firstinspires.ftc.sevenxmachine.sensors
 
 interface Sensor {
     fun retornaLeitura(): String // Vai retornar o valor cujo o sensor vai ler.
