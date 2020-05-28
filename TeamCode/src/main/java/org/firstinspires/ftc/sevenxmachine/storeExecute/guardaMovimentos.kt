@@ -3,8 +3,8 @@ package org.firstinspires.ftc.sevenxmachine.storeExecute
 class guardaMovimentos {
     var array = arrayOf<Array<Int>>() // Inicializa uma array bi-dimensional
 
-    fun preencheArray(): Array<Array<Int>> {
-        for (i in 0..9) {
+    fun zeraArray(): Array<Array<Int>> { // Preenche todos os valores da array para "0"
+        for (i in 0..9) { // Percorre, definindo tamanho dela.
             var subarray = arrayOf<Int>()
             for (j in 0..3) {
                 subarray += 0
@@ -12,6 +12,20 @@ class guardaMovimentos {
             array += subarray
         }
         
-        return array
+        return array // Retorna a array, zerada
+    }
+
+    fun preencheArray(m: Array<Array<Int>>, p1: Int, p2: Int, p3: Int, p4: Int) {
+        for (i in m.indices) { // Percorre a array via indices
+            for (j in m[i].indices) {
+                if (m[i][j] == 0) { // Se a o 1° valor da linha é vazia, o resto também vai ser.
+                    m[i][j] = p1
+                    m[i][1] = p2
+                    m[i][2] = p3
+                    m[i][3] = p4
+                    break // Sai do loop
+                }
+            }
+        }
     }
 }
