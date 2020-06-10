@@ -4,14 +4,15 @@ import com.qualcomm.robotcore.hardware.DcMotor
 import kotlin.properties.Delegates
 
 
-class MotorActivation : Activation{
+public class MotorActivation : Activation{
 
     private var motorAtivo: Boolean = false // Define se o motor vai iniciar ativo ou nao.
     public lateinit var motor: DcMotor // Motor que vai ser ativado.
     private var forcaAtivada by Delegates.notNull<Double>() // Força que sera aplicada ao motor, quando ele for ativado.
 
 
-    fun recebeMotor(motor: DcMotor, forcaAtivada: Double) { // Recebe força do motor
+    fun recebeMotor(motor: DcMotor, forcaAtivada: Double) {
+        // Recebe força do motor
         this.motor = motor
         this.forcaAtivada = forcaAtivada
 
