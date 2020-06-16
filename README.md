@@ -2,7 +2,7 @@
 
 Este é o repositorio, onde esta sendo aprimorado o código da temporada Skystone, em breve vai ser desenvolvido o código da proxima temporada
 
-TODO
+### TODO
 - [ ] Ativação de servos
 - [x] Ativação de motores.
 - [x] Fun. para movimentação dos motores.
