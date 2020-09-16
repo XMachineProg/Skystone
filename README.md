@@ -1,6 +1,6 @@
 ## REPOSITORIO OFICIAL SEVENXMACHINE
 
-Este é o repositorio, onde esta sendo aprimorado o código da temporada Skystone, em breve vai ser desenvolvido o código da proxima temporada
+Este é o repositorio, onde esta sendo aprimorado o código da temporada Skystone.
 
 ### TODO
 - [ ] Ativação de servos
@@ -16,3 +16,6 @@ Este é o repositorio, onde esta sendo aprimorado o código da temporada Skyston
 - [ ] Implementar o log em todas as funções.
 - [ ] Combos nos controles.
 - [ ] Calcular encoder/sleep
+
+
+[ TEMPORARIAMENTE DESCONTINUADO ]
